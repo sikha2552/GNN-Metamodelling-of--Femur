@@ -1,0 +1,28 @@
+
+This README documents the expected data structure so that, once access has been granted (see below), the notebooks in ../notebooks/ can be run without modification.
+
+How to request access
+
+Requests to access the dataset underlying this study should be directed to the corresponding authors:
+
+Abdollah Moslemi — abdollah.moslemi@upf.edu
+Sikha Okkath Krishnanunni — sikha.okkath@upf.edu
+
+Access is granted on a case-by-case basis in accordance with institutional ethics approval (CETIR Grup Mèdic Scientific Committee) and applicable data protection regulations. Requesters should expect to describe their intended use and, where required, execute a data use agreement with Pompeu Fabra University / CETIR Grup Mèdic.
+Expected directory structure
+
+Once data access has been granted, place the provided files into this folder following this structure:
+data/
+├── graphs/
+│   ├── Co_GNN_Inps_0010007803_pyg.pkl
+│   ├── Co_GNN_Inps_0027027422_pyg.pkl
+│   ├── Fx_GNN_Inps_0013900409_pyg.pkl
+│   ├── ...                              # 128 total: 64 "Co_" (control), 64 "Fx_" (fracture)
+├── stress_labels/
+│   ├── 0010007803.csv
+│   ├── 0027027422.csv
+│   ├── 0013900409.csv
+│   ├── ...                              # 128 total, one CSV per patient, matched by numeric ID
+└── splits/
+    └── verified_test_patient_ids.txt    # the 20 patient IDs used as the held-out test set
+                                          # in the manuscript (seed=42, patient-level split)
