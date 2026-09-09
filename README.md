@@ -1,6 +1,6 @@
 # GNN-Metamodelling-of--Femur
 
-This repository contains the code accompanying our paper submitted to Frontiers in Bioengineering and Biotechnology:
+This repository contains the code accompanying our paper submitted to Frontiers in Artificial Intelligence:
 
 Okkath Krishnanunni, S., Moslemi, A., Alizadeh, E., Humbert, L., González Ballester, M.A., Noailly, J. Element-Wise Femoral Stress Prediction: A Hybrid Graph Neural Network Surrogate for Finite Element Analysis. Frontiers in Bioengineering and Biotechnology (in review).
 
